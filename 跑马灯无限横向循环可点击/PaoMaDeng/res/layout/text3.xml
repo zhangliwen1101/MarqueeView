@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+<com.jack.paomadeng.view.MarqueeView 
+     android:id="@+id/mv_bar1"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@android:color/holo_red_dark"
+        app:mvAnimDuration="5000"
+       app:mvInterval="10000"
+        app:mvTextColor="@color/colorWhite"
+        app:mvTextSize="14sp"
+    />
+   <ViewFlipper
+       android:id="@+id/viewflipper1"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"/>
+</LinearLayout>
